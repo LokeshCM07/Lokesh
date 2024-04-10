@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+}
+
+.mybox{
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    width: 30%;
+    border-radius: .5 ;
+    font: optional;
+    padding: .5px 1px 1px 1px;
+    cursor:pointer;
+}
+
+
+
+.mybox:hover{
+    color:  red;
+    background-color: bisque;
+    content: "Hello";
+    transition: 2s;
+    font-size: xx-large;
+}
+
+
+
